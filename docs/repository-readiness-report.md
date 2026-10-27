@@ -24,7 +24,6 @@ The repository has been structured and cleaned for a public GitHub release and p
 2. **Repository Root Cleanup:**
    - Cleaned root folder of all temporary files, test scripts, and duplicated reports.
    - Removed obsolete `backend/requirements-step2.txt` (keeping the canonical `backend/requirements.txt`).
-   - Added standard open-source [`LICENSE`](../LICENSE) (MIT License).
    - Added [`data/README.md`](../data/README.md) detailing dataset schemas, storage formats, and reproduction instructions.
 3. **Frontend Test Integration:**
    - Added `npm test` script to `frontend/package.json` executing automated `buildApiUrl` unit tests (`node test-api-url.js`).
@@ -41,7 +40,6 @@ D:\grid bricks\
 ├── .dockerignore                  # Docker build context exclusions
 ├── .env.example                   # Environment variable template with safe placeholders
 ├── .gitignore                     # Git ignore rules (.venv, node_modules, caches, .env)
-├── LICENSE                        # MIT Open Source License
 ├── README.md                      # Institutional project overview, architecture & quickstart
 ├── compose.yaml                   # Docker Compose multi-container specification
 ├── pytest.ini                     # Pytest test discovery configuration

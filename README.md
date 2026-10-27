@@ -6,7 +6,6 @@
 [![TypeScript](https://img.shields.io/badge/typescript-5.9-blue.svg)]()
 [![Docker](https://img.shields.io/badge/docker-compose%20ready-2496ed.svg)]()
 [![Pytest](https://img.shields.io/badge/pytest-45%20passed-brightgreen.svg)]()
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 A production-grade decision-support platform for UK Day-Ahead electricity procurement. Reconstructs historical Elexon wind power forecasts published prior to the pre-auction gate-closure deadline, strictly eliminates lookahead bias, and quantifies forecast error risk across half-hour settlement periods against outturn actual generation for January 2026.
 
@@ -218,8 +217,6 @@ This platform is an institutional **forecast error analysis and procurement deci
 
 ---
 
-## 9. AI Usage Disclosure & License
+## 9. AI Usage Disclosure
 
 All AI tools and workflows used during development are documented with full transparency in [**`docs/ai-disclosure.md`**](docs/ai-disclosure.md).
-
-Licensed under the [MIT License](LICENSE).
