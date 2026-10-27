@@ -1,0 +1,35 @@
+# Python virtual environments & bytecode
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend dependencies/builds
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.oxlintcache
+
+# Environment variables & secrets (prevent leaking host configs)
+.env
+*.env
+!frontend/.env.example
+.env.local
+
+# Git version control
+.git/
+.gitignore
+
+# Raw data (normalized data is copied for the API; raw source files are not needed in production)
+data/raw/
+
+# System & IDE artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

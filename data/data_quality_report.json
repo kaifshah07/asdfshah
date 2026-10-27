@@ -1,0 +1,40 @@
+{
+  "timestamp_utc": "1793020826.5056863",
+  "actuals": {
+    "dataset": "FUELHH",
+    "fuel_type": "WIND",
+    "date_range": [
+      "2026-01-01",
+      "2026-01-31"
+    ],
+    "raw_records_fetched": 1488,
+    "valid_normalized_records": 1488,
+    "duplicates_removed": 0,
+    "validation_errors": 0,
+    "distinct_settlement_dates": 31,
+    "min_generation_mw": 1695.0,
+    "max_generation_mw": 17805.0,
+    "mean_generation_mw": 11580.737231182795,
+    "parquet_saved": "D:\\grid bricks\\data\\normalized\\actuals_jan2026.parquet",
+    "json_saved": "D:\\grid bricks\\data\\normalized\\actuals_jan2026.json"
+  },
+  "forecasts": {
+    "dataset": "WINDFOR",
+    "publish_range": [
+      "2025-12-30T00:00:00Z",
+      "2026-02-01T23:59:59Z"
+    ],
+    "raw_records_fetched": 19856,
+    "valid_normalized_records": 19856,
+    "duplicates_removed": 0,
+    "validation_errors": 0,
+    "distinct_publish_runs": 272,
+    "distinct_target_start_times": 865,
+    "earliest_publish_time": "2025-12-30T02:30:00+00:00",
+    "latest_publish_time": "2026-02-01T22:30:00+00:00",
+    "earliest_target_time": "2025-12-29T21:00:00+00:00",
+    "latest_target_time": "2026-02-03T21:00:00+00:00",
+    "parquet_saved": "D:\\grid bricks\\data\\normalized\\forecasts_jan2026.parquet",
+    "json_saved": "D:\\grid bricks\\data\\normalized\\forecasts_jan2026.json"
+  }
+}
